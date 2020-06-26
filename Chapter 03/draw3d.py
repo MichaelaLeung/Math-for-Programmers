@@ -144,6 +144,6 @@ def draw3d(*objects, origin=True, axes=True, width=6, save_as=None):
             raise TypeError("Unrecognized object: {}".format(object))
 
     if save_as:
-        plt.savefig("images/"+save_as)
+        plt.savefig(save_as)
 
     plt.show()
